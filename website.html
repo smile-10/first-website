@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/buildlogo.png" type="image/icon type" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <title>Build.myweb</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #c6d5de;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/buildlogo.png" width="110" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#carouselExampleIndicators">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#form">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mentors">Mentor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#table">Participate</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section style="padding-top: 28px;">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active pt-5">
+            <img src="assets/carousel.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item pt-5">
+            <img src="assets/carousel2.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <div
+    class="d-flex flex-column mb-5" style="background-color: #060116;">
+      <h3 class="align-self-center mb-5 mt-5" style="color: #ebf3f9;">WELCOME</h3>
+      <p class="align-self-center mb-5" style="color: #ebf3f9;">
+        Every great accomplishment in life is traceable to certain nuggets that make things work. It is the application of these nuggets that determine one’s success in life.
+      </p>
+      <p class="align-self-center mb-5" style="color: #ebf3f9;"> Vision is the power that sustains. Whatever we keep in front of our eyes is what will determine our outcome!</p>
+</div style="background-color">
+    <div style="background-color: rgb(131, 125, 125)">
+    <section
+      id="form"
+      class="d-flex flex-column justify-content-center align-items-center p-5"
+    >
+      <form style="background-color: white;" class="d-flex flex-column border border-bottom-0 p-3 w-auto">
+        <h5 class="align-self-center">Form:</h5>
+        <div class="form-group d-flex flex-column">
+          <label class="align-self-center" for="Name">Name</label>
+          <input type="text" class="form-control" id="Name" />
+        </div>
+        <div class="form-group d-flex flex-column">
+          <label class="align-self-center" for="Mobile">Mobile number</label>
+          <input type="number" class="form-control" id="Mobile" />
+        </div>
+        <div class="form-group d-flex flex-column">
+          <label class="align-self-center" for="Email1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="Email1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="form-group d-flex flex-column">
+          <label class="align-self-center" for="Company"
+            >Company/Institution name</label
+          >
+          <input type="text" class="form-control" id="Company" />
+        </div>
+        <div class="form-group d-flex flex-column pl-3 pr-3">
+          <small id="chooseHelp" class="form-text text-muted"
+            >Upload a short video or image of hand written sheet showing your
+            interest <br />
+            to join build.myweb</small
+          >
+          <input type="file" class="form-control-file" id="choose" />
+        </div>
+        <div class="form-group d-flex flex-column">
+          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <option selected>
+              Have you attended any events by Pygrammers before?!
+            </option>
+            <option value="1">Yes</option>
+            <option value="2">NO</option>
+          </select>
+        </div>
+        <button
+          type="submit"
+          style="background-color: #578ea8"
+          class="btn w-50 align-self-center mt-3"
+        >
+          Submit Form
+        </button>
+      </form>
+     </div>
+    </section>
+
+    <section id="mentors" style="background-color: #060116; padding: 50px">
+      <h5 style="text-align: center; color: #ebf3f9;">Mentors</h5>
+      <div class="row row-cols-1 row-cols-md-3 mt-5">
+        <div class="col mb-4">
+          <div class="card border-0 m-5">
+            <img
+              src="https://cdn.vox-cdn.com/thumbor/4QtOwnOxCdwESvt1-CpQSTZvHHA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19932738/1206292068.jpg.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body" style="background-color: #0a88fd;">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card border-0 m-5">
+            <img
+              src="https://cdn.vox-cdn.com/thumbor/4QtOwnOxCdwESvt1-CpQSTZvHHA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19932738/1206292068.jpg.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body" style="background-color: #ebf3f9;">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card border-0 m-5">
+            <img
+              src="https://cdn.vox-cdn.com/thumbor/4QtOwnOxCdwESvt1-CpQSTZvHHA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19932738/1206292068.jpg.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body" style="background-color: #0a88fd;">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card border-0 m-5">
+            <img
+              src="https://cdn.vox-cdn.com/thumbor/4QtOwnOxCdwESvt1-CpQSTZvHHA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19932738/1206292068.jpg.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body" style="background-color: #ebf3f9;">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card border-0 m-5">
+            <img
+              src="https://cdn.vox-cdn.com/thumbor/4QtOwnOxCdwESvt1-CpQSTZvHHA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19932738/1206292068.jpg.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body" style="background-color:#0a88fd; ">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card border-0 m-5">
+            <img
+              src="https://cdn.vox-cdn.com/thumbor/4QtOwnOxCdwESvt1-CpQSTZvHHA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19932738/1206292068.jpg.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body" style="background-color: #ebf3f9">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="table"><table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col"># No</th>
+          <th scope="col">Name</th>
+          <th scope="col">Mobile</th>
+          <th scope="col">College</th>
+          <th scope="col">Email ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Annmary</td>
+          <td>123456</td>
+          <td>NHG</td>
+          <td>@abc</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Anna</td>
+            <td>123456</td>
+            <td>NHG</td>
+            <td>@abc</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Agna</td>
+          <td>123456</td>
+          <td>NHG</td>
+          <td>@abc</td>
+        </tr>
+        <tr>
+        <th scope="row">3</th>
+          <td>Anitta</td>
+          <td>123456</td>
+          <td>NHG</td>
+          <td>@abc</td>
+        </tr>
+      </tbody>
+    </table></section>
+    <footer class="d-flex flex-column" style="background-color: #c6d5de;">
+      <img
+        class="col align-self-center p-2 w-25 h-25"
+        src="assets/footer.png"
+        alt=""
+      />
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
